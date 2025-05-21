@@ -3,7 +3,7 @@ import Search from './components/Search';
 
 function App() {
 
-  const [searchTerm , setSearchTerm] = useState("Search");
+  const [searchTerm , setSearchTerm] = useState("");
 
   return (
     <main>
