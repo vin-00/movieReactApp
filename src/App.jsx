@@ -23,7 +23,7 @@ function App() {
   const[errorMessage , setErrorMessage] = useState('');
   const[isLoading, setIsLoading] = useState(false);
 
-  const fetchMovies = async()=>{
+  const fetchMovies = async(query = '')=>{
     setIsLoading(true);
     setErrorMessage('');
     try{
@@ -57,14 +57,14 @@ function App() {
   }
   useEffect(()=>{
     fetchMovies();
-  }, []) 
+  }, [searchTerm]) 
 
   return (
     <main>
       <div className='pattern' />
       <div className='wrapper' >
         <header>
-          {/* <img src="hero." alt="Hero Banner" /> */}
+          <img src="hero.png" alt="Hero Banner" />
           <h1>Find <span className='text-gradient' >Movies</span> You'll Enjoy without the Hassle</h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
