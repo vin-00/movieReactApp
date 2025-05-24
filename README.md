@@ -3,7 +3,7 @@
 Movie Explorer is a sleek and responsive movie browsing application built with **React**, **TailwindCSS**, and powered by **The Movie Database (TMDb) API**. It allows users to search for movies, explore all available titles, and view trending films based on real-time search data using **Appwrite** as the backend database.
 
 ![image](https://github.com/user-attachments/assets/e5924a53-9dc4-49e8-9ff1-22b2b930a7a4)
-![image](https://github.com/user-attachments/assets/3928c25b-40cc-4a71-be6a-92d360cf54d6)
+![image](https://github.com/user-attachments/assets/8049986a-2d13-405f-9dea-94c3eb458f8d)
 
 ---
 
